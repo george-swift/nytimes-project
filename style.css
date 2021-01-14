@@ -349,3 +349,40 @@ footer ul {
   color: #666;
   font-size: 11px;
 }
+
+/* Media queries */
+@media only screen and (max-width: 900px) {
+  h1,
+  .links-social,
+  .article-body {
+    width: 80%;
+  }
+
+  aside {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .article-diagram {
+    width: 85%;
+  }
+
+  .sections-wrapper {
+    flex-direction: column;
+  }
+
+  .site-index:last-child {
+    padding: 0;
+    border: none;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .small-screen {
+    display: none;
+  }
+}
