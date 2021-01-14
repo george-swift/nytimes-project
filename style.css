@@ -31,3 +31,58 @@ h3 {
   line-height: 16px;
   text-transform: uppercase;
 }
+
+/* Styling rules for header element */
+.page-header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn {
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+}
+
+.icon,
+.comment {
+  width: 16px;
+  height: 16px;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.reader-btn {
+  height: 30px;
+  margin-right: 8px;
+  font: 11px helvetica, arial, sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
