@@ -1,0 +1,33 @@
+/* Css general rules */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  width: 600px;
+  margin: 0 auto 20px;
+  color: #121212;
+  font: italic 700 2.5rem georgia, "times new roman", times, serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h3 {
+  height: 20px;
+  color: #333;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
