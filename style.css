@@ -234,3 +234,29 @@ figure {
   padding: 5px 0;
   font: 600 15px/18px helvetica, arial, sans-serif;
 }
+
+/* Styling rules for aside element */
+aside {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding-right: 30px;
+}
+
+.wrap-pick {
+  display: block;
+  float: right;
+}
+
+.pick-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font: 14px/16px georgia, "times new roman", times, serif;
+  color: #121212;
+}
+
+.pick-img {
+  max-width: 75px;
+  margin-right: 5px;
+}
