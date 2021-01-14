@@ -86,3 +86,151 @@ nav {
   color: #fff;
   cursor: pointer;
 }
+
+/* Styling rules for article element */
+article {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 75px;
+}
+
+.links-social {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  border-top: 1px solid #ebebeb;
+}
+
+.header-btn {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  padding: 3px;
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 100%;
+}
+
+.wrap-photo {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.photo {
+  width: 100%;
+}
+
+.article-body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.editor {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.editor a {
+  font-weight: 600;
+  color: #000;
+  text-decoration-color: #ccc;
+}
+
+.editor p {
+  margin-top: 5px;
+}
+
+.content p {
+  font: 20px/30px georgia, "times new roman", times, serif;
+}
+
+.phrase {
+  font-weight: 700;
+}
+
+.article-diagram {
+  width: 70%;
+  margin: 15px auto;
+  padding-top: 10px;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.article-diagram h2 {
+  font-size: 20px;
+}
+
+#summary-text {
+  font-weight: 400;
+  color: #666;
+}
+
+.diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 15px;
+  font: 300 13px/17px arial, helvetica, sans-serif;
+  color: #000;
+}
+
+.grid-item {
+  width: 100%;
+  max-width: 230px;
+  margin-top: 5px;
+}
+
+.key-word {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.grid-footer {
+  grid-column: 1 / -1;
+  padding-top: 8px;
+  color: #333;
+}
+
+.grid-footer::before {
+  width: 60px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 15px 0 10px;
+  background-color: #000;
+}
+
+figure {
+  margin: 25px 0;
+}
+
+.video {
+  width: 100%;
+  height: 320px;
+}
+
+.media-credit,
+.endnote {
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+}
+
+.share {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.comments {
+  width: 65%;
+  margin-right: 4px;
+  padding: 5px 0;
+  font: 600 15px/18px helvetica, arial, sans-serif;
+}
