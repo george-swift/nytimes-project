@@ -260,3 +260,72 @@ aside {
   max-width: 75px;
   margin-right: 5px;
 }
+
+/* Styling rules for site index section */
+.sections-index {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.times-home::before {
+  display: block;
+  height: 1px;
+  content: "";
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+}
+
+.times-home,
+.sections-wrapper {
+  width: 100%;
+}
+
+.sections-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding-top: 5px;
+}
+
+.site-index {
+  flex: 1;
+}
+
+.site-index:last-child {
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.sub li {
+  margin-bottom: 4px;
+}
+
+.sub a {
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+}
+
+.link-icon {
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+}
+
+.section-link {
+  color: #000;
+  font: 300 14px/16px helvetica, arial, sans-serif;
+  text-decoration: none;
+}
+
+.smaller {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 20px;
+}
