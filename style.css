@@ -88,9 +88,7 @@ nav {
 
 /* Styling rules for article element */
 article {
-  display: flex;
-  flex-flow: column wrap;
-  width: 100%;
+  max-width: 100%;
   margin-top: 50px;
   padding-top: 75px;
 }
@@ -244,23 +242,22 @@ figcaption {
 
 /* Styling rules for aside element */
 aside {
-  display: block;
-  width: 90%;
-  margin: auto;
-  padding-right: 30px;
-}
-
-.wrap-pick {
-  display: block;
+  width: 20%;
   float: right;
+  padding: 10px;
 }
 
 .pick-link {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
   text-decoration: none;
   font: 14px/16px georgia, "times new roman", times, serif;
   color: #121212;
+}
+
+.pick-link:hover {
+  text-decoration: underline;
 }
 
 .pick-img {
