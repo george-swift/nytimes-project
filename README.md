@@ -3,6 +3,7 @@
 # Project One: Positioning and Floating Elements
 
 > New York Times Article
+> ![screenshot](./Times-screenshot.png)
 
 ## Built With
 
