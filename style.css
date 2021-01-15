@@ -117,10 +117,6 @@ article {
   padding: 5px;
 }
 
-.photo {
-  width: 100%;
-}
-
 .article-body {
   width: 50%;
   margin: 0 auto;
@@ -284,6 +280,7 @@ aside {
   border-top: 2px solid #e2e2e2;
 }
 
+.photo,
 .times-home,
 .sections-wrapper {
   width: 100%;
