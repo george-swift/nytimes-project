@@ -356,6 +356,10 @@ footer ul {
 
 /* Media queries */
 @media only screen and (max-width: 900px) {
+  nav {
+    padding: 0;
+  }
+
   h1,
   .links-social,
   .article-body {
@@ -382,6 +386,10 @@ footer ul {
 
   .sections-wrapper {
     flex-direction: column;
+  }
+
+  .site-index {
+    margin-bottom: 15px;
   }
 
   .site-index:last-child {
